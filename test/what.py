@@ -29,4 +29,9 @@ while (isOpened):
  elif frameState == False:
   break
 print('finish!')
+<<<<<<< HEAD
 cap.release()
+=======
+cap.release()
+# //HHH
+>>>>>>> f8eafa5 ( first 更改)
