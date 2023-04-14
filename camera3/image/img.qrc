@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="jpg">
+    <file>sezhi.jpg</file>
+  </qresource>
+</RCC>
