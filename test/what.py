@@ -13,6 +13,7 @@ timef=1  #隔15帧保存一张图片
 while (isOpened):
  sum+=1
  (frameState, frame) = cap.read()  # 记录每帧及获取状态
+ #print(cap.read())
  if frameState == True and (sum % timef==0):
   # 格式转变，BGRtoRGB
   frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -29,11 +30,5 @@ while (isOpened):
  elif frameState == False:
   break
 print('finish!')
-<<<<<<< HEAD
-cap.release()
-=======
-cap.release()
-# //HHH
->>>>>>> f8eafa5 ( first 更改)
 
-哈哈哈
+cap.release()
